@@ -94,16 +94,16 @@ eg. Suppose I have designed this simple program to tell me what movies I can see
     age = input("What is your age? ")
     if age > 18:
         print("You can see any movie!")
-    elif age < 18 and age > 15:
+    elif age < 18 and age > 13:
         print("You are not allowed to see R-rated movies.")
     else:
-        print("You are not allowed to see R- or MA 15+ movies.)
+        print("You are not allowed to see R or PG-13 movies.)
 
  - if the user inputs 21, does it give the answer you expect?
  - if the user inputs 18, does it give the answer you expect?
  - if the user inputs 16, does it give the answer you expect?
- - if the user inputs 15, does it give the answer you expect?
- - if the user inputs 12, does it give the answer you expect?
+ - if the user inputs 13, does it give the answer you expect?
+ - if the user inputs 10, does it give the answer you expect?
 
 Notice how we chose the test cases. We are sure to choose one from each category and the "edge cases" (15  and 18). Edge cases are easy to make mistakes with.
 
